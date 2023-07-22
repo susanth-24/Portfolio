@@ -16,7 +16,7 @@ export const NavData=[
  const projects=[
     {
         name: "PPO Drone",
-        description:"lorem ipsum",
+        description:"Implemented Proximal Policy Optimization (PPO) and Advantage Actor-Critic (A2C) reinforcement learning algorithms to develop an simulated autonomous drone system capable of stabilization and precise movement. Utilized these algorithms to build and train the drone’s policy network with Pytorch, to optimize its actions on custom environment feedback. Its performance is optimized over time by incorporating reward and value functions.",
         skills:[
             {
                 skill:"Python",
@@ -32,7 +32,7 @@ export const NavData=[
     },
     {
         name: "EveryNote",
-        description:"lorem ipsum",
+        description:"Developed a Full-Stack web application using the MERN stack. The application provides a platform for students to post and share links to their handwritten notes. Leveraged React for the front-end user interface, enabling an interactive experience. Implemented a RESTful API using Express.js to handle data requests and interact with the MongoDB database. Integrated authentication and authorization features using JWT Authentication to ensure secure access to the applications functionality",
         skills:[
             {
                 skill:"Mongodb",
@@ -52,8 +52,7 @@ export const NavData=[
     },
     {
         name: "Stock-price prediction",
-        description:
-        "Lorem ipsum ",
+        description:"Developed a deep learning model in Python to predict Apple Inc. (AAPL) stock prices. Extracted historical stock price data using the OpenBB Terminal SDK, and preprocessed it by dividing it into nonoverlapping windows of 4 days closing prices to forecast the next days price. Employed a variety of architectures, including LSTM+Dense, RNN+Dense, and Dense-only models, using a window of the past 4 days closing prices to predict the next days price for Apple Inc. (AAPL) stock. Achieved a remarkable accuracy of 98.8 percent with the best-performing architecture.",
         skills:[
             {
                 skill:"Python",
@@ -72,8 +71,8 @@ export const NavData=[
         link:"https://github.com/",
     },
     {
-        name: "Image captioning",
-        description:"Lorem ipsum",
+        name: "Pegasis",
+        description:"Developed an object detection system using the SSD (Single Shot MultiBox Detector) architecture to accurately predict and locate humans and cars in images. Implemented depth estimation model that incorperated Encoder-Decoder architecture to accurately predict the distance of objects from the camera.",
         skills:[
             {
                 skill:"Python",
@@ -84,7 +83,7 @@ export const NavData=[
                 color:"text-[#e67e22]",
             },
             {
-                skill:"CNN RNN",
+                skill:"SSD",
                 color:"text-[#e74c3c]",
             },
         ],
